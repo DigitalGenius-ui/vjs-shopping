@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.products{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.products .singleProduct{
+    width: 100%;
+}
+
+.singleProduct .product-img{
+    width: 100%;
+    height: 15rem;
+}
+
+.product-img img{
+    width: 100%;
+    height: 15rem;
+    object-fit: fill;
+}
+
+.cart-box{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.cart-box h1{
+    font-size: 1.1rem;
+}
+
+.single-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-item .img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img .title{
+    font-size: 0.8rem;
+}
+
+.single-item .img img{
+    width: 6rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+.final-price{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.final-price .price{
+    background-color: aliceblue;
+    margin-bottom: 1rem;
+    width: 20rem;
+    margin-left: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.title{
+    width: 10rem;
+}
