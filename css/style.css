@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .products{
@@ -45,17 +46,18 @@
 
 .single-item{
     width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: aliceblue;
-    padding: 0.5rem;
-    border-radius: 5px;
     margin-top: 0.5rem;
 }
 
 .item{
     display: flex;
+    width: 100%;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: aliceblue;
 }
 
 .single-item .img{
